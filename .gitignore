@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Env
+.env
+
+# Vector stores and caches
+data/vectorstores/
+.chroma/
+
+# VS Code / IDE
+.vscode/
+.idea/
+.DS_Store

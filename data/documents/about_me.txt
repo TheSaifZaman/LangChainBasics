@@ -1,0 +1,38 @@
+Md. Saif Zaman
+Backend Software Engineer
+Bangladesh | linkedin.com/in/thesaifzaman
+
+SUMMARY
+Backend Software Engineer with 5+ years of experience building robust, scalable systems for SaaS, E‑commerce, and ERP. Strong in OOP, SOLID, and DRY across the SDLC. Comfortable with microservices, API design, and DevOps workflows. Passionate about reliability, performance, and thoughtful system design.
+
+CORE SKILLS
+- Languages & Frameworks: PHP (Laravel), Java (Spring Boot), Go, Python
+- Datastores: MySQL, PostgreSQL; relational design; performance tuning
+- Architecture: SOLID, DRY, design patterns; scalable, fault‑tolerant services
+- DevOps & Systems: Docker, containers, Linux CLI, shell scripting, CI/CD basics
+- Ways of Working: Agile/Scrum, requirements analysis, technical leadership
+
+EXPERIENCE
+Blubird Interactive Ltd. — Associate Software Engineer (Backend) | Dhaka | Aug 2022 – Present
+- Led end‑to‑end development of a SaaS Real Estate platform (V2), competing with industry leaders.
+- Designed and delivered core ERP/CRM modules supporting 1,000+ client transactions.
+- Built integrations with QuickBooks, Twilio, and Zillow; reduced manual entry by 10+ hours/week.
+
+OrangeHRM — Consultant Software Engineer (Remote) | May 2022 – Jul 2022
+- Shipped two high‑impact modules for the core open‑source system used in marketing and acquisition.
+- Supported 3 branding campaigns; contributed to a ~15% increase in qualified leads and ~20% higher engagement.
+
+Skylark Soft Ltd. — Software Engineer | Dhaka | Nov 2021 – Apr 2022
+- Engineered accounting APIs for an apparel ERP; cut report generation time by ~40% and eliminated reconciliation errors.
+- Improved data accuracy to ~99.9% and streamlined month‑end closing with automated synchronization.
+
+Fleet Bangladesh — Junior Software Engineer | Dhaka | Dec 2020 – Sep 2021
+- Designed a RESTful API layer for a new microservices architecture; improved scalability for 3× more concurrent users.
+- Accelerated delivery of 5+ features by standardizing inter‑service communication.
+
+EDUCATION & CERTIFICATIONS
+- B.Sc. (Engr.) in Computer Science & Engineering — RUET, 2021
+- Certifications: Google Data Analytics, Python for Everybody
+
+LEADERSHIP & ACTIVITIES
+- National Physics Olympiads: Consistently ranked within the top 20 at the regional level.
