@@ -4,18 +4,18 @@ A clean, structured learning repository for LangChain. It walks you from simple 
 
 ## Quick start
 
-1. Create a virtual environment and install dependencies:
+1.Create a virtual environment and install dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-2. Create a `.env` file from `.env.example` and set your API key(s):
+2.Create a `.env` file from `.env.example` and set your API key(s):
 
-   ```bash
-   cp .env.example .env
-   # Edit .env and set OPENAI_API_KEY
-   ```
+```bash
+cp .env.example .env
+# Edit .env and set OPENAI_API_KEY
+```
 
 ## Project layout
 
@@ -25,47 +25,53 @@ A clean, structured learning repository for LangChain. It walks you from simple 
   - `03_alternative_models.py` – switch models/providers
   - `04_user_conversation.py` – interactive prompts
   - `05_message_history_firebase.py` – persist history example
+  - `06_structured_output.py` – parse outputs into Pydantic models
+  - `07_timeout_retry.py` – timeouts and retries, basic error handling
+  - `08_streaming_tokens.py` – stream incremental tokens for responsive UX
 - `02_prompting/`
   - `01_prompt_templates_basics.py` – prompt templates
+  - `02_few_shot_and_partial.py` – few‑shot examples and partial variables
 - `03_chains/`
   - `01_chain_basics.py` – basic chains
   - `02_chain_internals.py` – under the hood
   - `03_chain_sequential.py` – sequential chains
   - `04_chain_parallel.py` – parallel chains
   - `05_chain_conditional.py` – conditional chains
+  - `06_batch_inference.py` – run chains over multiple inputs with `.batch()`
 - `04_rag/`
   - `01_build_vectorstore_basic.py` – index one file
   - `02_query_vectorstore_basic.py` – query the index
   - `03_build_with_metadata.py` – index multiple files with metadata
   - `04_query_with_metadata.py` – query with metadata filtering
   - `05_one_off_qa.py` – compose retrieved chunks into an answer
+  - `06_query_mmr.py` – MMR retrieval (balance relevance and diversity)
 - `05_agents/`
   - `01_agents_basics.py` – agent basics
 - `data/`
   - `documents/` – sample text documents
-  - `vectorstores/` – generated Chroma indexes (gitignored)
+  - `vectorstores/` – generated Chroma indexes (git ignored)
 
 ## RAG workflow
 
 - Build an index from documents:
 
-  ```bash
-  python 04_rag/01_build_vectorstore_basic.py
-  python 04_rag/03_build_with_metadata.py
-  ```
+```bash
+python 04_rag/01_build_vectorstore_basic.py
+python 04_rag/03_build_with_metadata.py
+```
 
 - Query the index:
 
-  ```bash
-  python 04_rag/02_query_vectorstore_basic.py
-  python 04_rag/04_query_with_metadata.py
-  ```
+```bash
+python 04_rag/02_query_vectorstore_basic.py
+python 04_rag/04_query_with_metadata.py
+```
 
 - Try end-to-end QA:
 
-  ```bash
-  python 04_rag/05_one_off_qa.py
-  ```
+```bash
+python 04_rag/05_one_off_qa.py
+```
 
 ## Notes
 
